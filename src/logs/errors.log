@@ -10,3 +10,30 @@ http: Someone made a POST request to the endpoint /api/carts/:cid/product/:pid {
 http: Someone made a GET request to the endpoint /api/carts/:cid {"timestamp":"2023-10-25T20:34:35.287Z"}
 info: ¡Someone is about to buy something from our store! {"timestamp":"2023-10-25T20:34:35.552Z"}
 http: Someone made a DELETE request to the endpoint /api/carts/:cid {"timestamp":"2023-10-25T20:34:47.388Z"}
+info: Server Express Puerto 8080 {"timestamp":"2023-10-25T20:39:43.278Z"}
+info: DB connected! {"timestamp":"2023-10-25T20:39:44.032Z"}
+info: A user has logged out. {"timestamp":"2023-10-25T20:39:49.163Z"}
+info: A new user has been created successfully. {"timestamp":"2023-10-25T20:40:39.818Z"}
+info: An user has been redirected to the view LOGIN {"timestamp":"2023-10-25T20:40:39.916Z"}
+info: A user has logged out. {"timestamp":"2023-10-25T20:40:41.399Z"}
+info: A new user has been created successfully. {"timestamp":"2023-10-25T20:40:55.434Z"}
+info: An user has been redirected to the view LOGIN {"timestamp":"2023-10-25T20:40:55.531Z"}
+info: A user has logged out. {"timestamp":"2023-10-25T20:40:57.153Z"}
+info: A new user has been created successfully. {"timestamp":"2023-10-25T20:41:29.614Z"}
+info: An user has been redirected to the view LOGIN {"timestamp":"2023-10-25T20:41:29.705Z"}
+info: A user has logged out. {"timestamp":"2023-10-25T20:41:31.875Z"}
+info: A new user has been created successfully. {"timestamp":"2023-10-25T20:42:08.938Z"}
+info: An user has been redirected to the view LOGIN {"timestamp":"2023-10-25T20:42:09.026Z"}
+info: A user has logged out. {"timestamp":"2023-10-25T20:42:10.754Z"}
+info: A new user has been created successfully. {"timestamp":"2023-10-25T20:42:51.026Z"}
+info: An user has been redirected to the view LOGIN {"timestamp":"2023-10-25T20:42:51.124Z"}
+info: A user has logged out. {"timestamp":"2023-10-25T20:42:52.530Z"}
+info: An user has logged in. {"timestamp":"2023-10-25T20:43:02.720Z"}
+info: The user has been redirected to the view REALTIMEPRODUCTS for being an Administrator. {"timestamp":"2023-10-25T20:43:02.849Z"}
+info: A user has logged out. {"timestamp":"2023-10-25T20:43:29.743Z"}
+info: A new user has been created successfully. {"timestamp":"2023-10-25T20:44:29.012Z"}
+info: An user has been redirected to the view LOGIN {"timestamp":"2023-10-25T20:44:29.094Z"}
+info: A user has logged out. {"timestamp":"2023-10-25T20:44:31.166Z"}
+info: An user has logged in. {"timestamp":"2023-10-25T20:45:58.371Z"}
+info: The user has been redirected to the view REALTIMEPRODUCTS for being an Administrator. {"timestamp":"2023-10-25T20:45:58.488Z"}
+info: A user has logged out. {"timestamp":"2023-10-25T20:46:25.243Z"}
