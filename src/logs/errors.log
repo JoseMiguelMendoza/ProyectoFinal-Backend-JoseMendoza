@@ -1,0 +1,12 @@
+info: A user has logged out. {"timestamp":"2023-10-25T20:33:52.677Z"}
+info: An user has logged in. {"timestamp":"2023-10-25T20:34:16.871Z"}
+info: The user has been redirected to the view PRODUCTS for being a User. {"timestamp":"2023-10-25T20:34:17.003Z"}
+http: Someone made a GET request to the endpoint /api/carts {"timestamp":"2023-10-25T20:34:30.655Z"}
+http: Someone made a POST request to the endpoint /api/carts/:cid/product/:pid {"timestamp":"2023-10-25T20:34:30.922Z"}
+http: Someone made a GET request to the endpoint /api/carts {"timestamp":"2023-10-25T20:34:31.440Z"}
+http: Someone made a POST request to the endpoint /api/carts/:cid/product/:pid {"timestamp":"2023-10-25T20:34:31.738Z"}
+http: Someone made a GET request to the endpoint /api/carts {"timestamp":"2023-10-25T20:34:32.216Z"}
+http: Someone made a POST request to the endpoint /api/carts/:cid/product/:pid {"timestamp":"2023-10-25T20:34:32.486Z"}
+http: Someone made a GET request to the endpoint /api/carts/:cid {"timestamp":"2023-10-25T20:34:35.287Z"}
+info: ¡Someone is about to buy something from our store! {"timestamp":"2023-10-25T20:34:35.552Z"}
+http: Someone made a DELETE request to the endpoint /api/carts/:cid {"timestamp":"2023-10-25T20:34:47.388Z"}

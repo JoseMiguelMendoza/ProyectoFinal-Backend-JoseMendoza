@@ -1,0 +1,43 @@
+<div class="navbar">
+    <div style="display: flex; align-items: center; gap: 10px;">
+        <img style="margin-left: 5px; height: 45px;" src="/assets/icono-perfil.png" alt="Imagen de perfil">
+        <p style="color: white; font-family:'Kalam', cursive;">¡Bienvenido/a {{role}}, {{name}}!</p>
+    </div>
+    <div style="display: flex; align-items: center; gap: 10px;">
+        <a href="/" style="text-decoration: none; font-family: 'Kalam', cursive; margin-right: 10px; color: white; font-weight: bold;">UPDATE</a>
+        <div style="border-left: 1px solid white; color: #003500">--</div>
+        {{#if checkingRole}}
+            <a href="/realTimeProducts" style="text-decoration: none; font-family: 'Kalam', cursive; margin-right: 10px; color: white; font-weight: bold;">POST/DELETE</a>
+            <div style="border-left: 1px solid white; color: #003500">--</div>
+            <a href="/user-managing" style="text-decoration: none; font-family: 'Kalam', cursive; margin-right: 10px; color: white; font-weight: bold;">USERS</a>
+        {{/if}}
+        <div style="border-left: 1px solid white; color: #003500">--</div>
+        <a href="/logout" style="text-decoration: none; font-family: 'Kalam', cursive; margin-right: 15px; color: white; font-weight: bold;">Logout</a>
+    </div>
+</div>
+<div class="usersGeneralBox">
+    {{#if isThereUsers}}
+        {{#each allUsers}}
+        <div class="userBox">
+            <div style="border-bottom: 1px solid white; margin-bottom: 10px; padding: 0 0 5px 0; font-style: italic; border-bottom-style: dashed;">
+                <p style="font-size: 30px; font-weight: bolder; text-align: center;">{{this.name}} {{this.surname}}</p>
+            </div>
+            <div>
+                <p class="userItem"><b>Edad: </b>{{this.age}}</p>
+                <p class="userItem"><b>Rol: </b>{{this.role}}</p>
+                <p class="userItem"><b>Email: </b>{{this.email}}</p>
+            </div>
+            <div style="display: flex; justify-content: center; items-align: center; margin-top: 5px;">
+                <button style="padding: 9px 13px; border-radius: 10px; color: rgb(255, 255, 255); background-color: red; cursor: pointer;" class="deleteUserButton" data-id="{{this._id}}">Eliminar</button>
+            </div>
+        </div>
+        {{/each}}
+    {{else}}
+        <div style="font-family: 'Kalam', cursive; font-size: 30px; background-color: white; width: 95%; opacity: 0.8; border-radius: 10px; display: flex; justify-content: center; align-items: center; height: 850px;">
+            <p>No hay usuarios registrados en este momento.</p>
+        </div>
+    {{/if}}
+</div>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="/js/userDelete.js"></script>
